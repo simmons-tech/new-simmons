@@ -64,15 +64,11 @@ To run this project, you will need to add the following environment variables to
 
 `POSTGRES_PORT`
 
-`AUTH_SECRET`
+`OKTA_CLIENT_ID`
 
-`AUTH_TRUST_HOST`
+`OKTA_CLIENT_SECRET`
 
-`AUTH_REDIRECT_PROXY_URL`
-
-`CLIENT_ID`
-
-`CLIENT_SECRET`
+`OKTA_CALLBACK_URL`
 
 `PEOPLE_API_ID`
 

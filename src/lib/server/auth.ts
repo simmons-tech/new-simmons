@@ -97,7 +97,7 @@ export function deleteSessionTokenCookie(event: RequestEvent): void {
 
 // START OKTA WORKFLOW
 
-const { OKTA_CLIENT_ID, OKTA_CLIENT_SECRET } = env;
+const { OKTA_CLIENT_ID, OKTA_CLIENT_SECRET, OKTA_CALLBACK_URL } = env;
 
 export const domain = 'okta.mit.edu';
 
@@ -106,5 +106,5 @@ export const okta = new Okta(
 	null,
 	OKTA_CLIENT_ID ?? '',
 	OKTA_CLIENT_SECRET ?? '',
-	'https://new-simmons-mit.netlify.app/auth/callback/okta'
+	OKTA_CALLBACK_URL ?? ''
 );
