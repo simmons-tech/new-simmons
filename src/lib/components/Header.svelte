@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { AppBar } from '@skeletonlabs/skeleton-svelte';
 	import LightSwitch from '$lib/components/LightSwitch.svelte';
 	import { Menu } from 'lucide-svelte';
@@ -8,7 +8,7 @@
 	import { headerLinks } from '$lib/data/navLinks';
 	import HeaderDrawer from './HeaderDrawer.svelte';
 
-	let current_page = $derived($page.url.pathname);
+	let current_page = $derived(page.url.pathname);
 	let headerDrawerOpen = $state(false);
 
 	const changeDrawer = () => {

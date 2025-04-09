@@ -7,7 +7,7 @@
 	import DBSidebar from '$lib/components/DBSidebar.svelte';
 	import DBFooter from '$lib/components/DBFooter.svelte';
 
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
 	let innerWidth: number | undefined = $state();
 </script>
@@ -20,9 +20,9 @@
 	</header>
 
 	<div class="flex h-full w-full flex-auto overflow-hidden">
-		{#if $page.data.username && $page.data.groups}
+		{#if page.data.username && page.data.groups}
 			<aside class="hidden w-auto flex-none overflow-x-hidden overflow-y-auto sm:block">
-				<DBSidebar username={$page.data.username} groups={$page.data.groups} />
+				<DBSidebar username={page.data.username} groups={page.data.groups} />
 			</aside>
 		{/if}
 
@@ -38,9 +38,9 @@
 	</div>
 
 	<footer class="flex-none">
-		{#if $page.data.username && $page.data.groups}
+		{#if page.data.username && page.data.groups}
 			<aside class="block sm:hidden">
-				<DBFooter username={$page.data.username} groups={$page.data.groups} />
+				<DBFooter username={page.data.username} groups={page.data.groups} />
 			</aside>
 		{/if}
 		<Footer />

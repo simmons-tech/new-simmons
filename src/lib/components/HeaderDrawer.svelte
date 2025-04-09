@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { headerLinks } from '$lib/data/navLinks';
 	import LightSwitch from '$lib/components/LightSwitch.svelte';
 
@@ -10,7 +10,7 @@
 
 	let { changeDrawer }: Props = $props();
 
-	let current_page = $derived($page.url.pathname);
+	let current_page = $derived(page.url.pathname);
 </script>
 
 <div class="flex min-h-full flex-col items-center gap-2">

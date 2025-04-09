@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { ActionData, PageData } from './$types';
 
-	import { ProgressRing, type ToastContext } from '@skeletonlabs/skeleton-svelte';
+	import { ProgressRing, createToaster } from '@skeletonlabs/skeleton-svelte';
 	import DirectorySearch from '$lib/components/DirectorySearch.svelte';
 	import PeopleTable from '$lib/components/PeopleTable.svelte';
 
@@ -16,7 +16,7 @@
 
 	let { form, data }: Props = $props();
 
-	export const toast: ToastContext = getContext('toast');
+	export const toast: ReturnType<typeof createToaster> = getContext('toast');
 
 	function toastHandler(result: ActionResult) {
 		if (result.type == 'success') {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ProgressRing, type ToastContext, Popover } from '@skeletonlabs/skeleton-svelte';
+	import { ProgressRing, createToaster, Popover } from '@skeletonlabs/skeleton-svelte';
 	import type { PageData } from './$types';
 	import { enhance } from '$app/forms';
 	import type { ActionResult } from '@sveltejs/kit';
@@ -15,7 +15,7 @@
 
 	let quotePopup: boolean = $state(false);
 
-	export const toast: ToastContext = getContext('toast');
+	export const toast: ReturnType<typeof createToaster> = getContext('toast');
 
 	function toastHandler(result: ActionResult) {
 		if (result.type == 'success') {

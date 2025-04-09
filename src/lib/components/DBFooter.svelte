@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Navigation } from '@skeletonlabs/skeleton-svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { sdsLinks } from '$lib/data/navLinks';
 	import { onNavigate } from '$app/navigation';
 	import { SDS_LOGIN_URL } from '$lib/config';
@@ -59,8 +59,8 @@
 							<a
 								href={link.href}
 								class="btn h-auto w-full text-start whitespace-normal"
-								class:preset-filled-primary-500={link.href === $page.url.pathname}
-								class:hover:preset-tonal={link.href !== $page.url.pathname}
+								class:preset-filled-primary-500={link.href === page.url.pathname}
+								class:hover:preset-tonal={link.href !== page.url.pathname}
 								class:pointer-events-none={link.badge === 'Incomplete'}
 								class:opacity-50={link.badge === 'Incomplete'}
 								aria-disabled={link.badge === 'Incomplete'}
@@ -105,7 +105,7 @@
 				title="Account"
 				label={username ?? 'Guest'}
 				labelExpanded={username ?? 'Guest'}
-				selected={$page.url.pathname === SDS_LOGIN_URL}
+				selected={page.url.pathname === SDS_LOGIN_URL}
 			>
 				<CircleUser />
 			</Navigation.Tile>

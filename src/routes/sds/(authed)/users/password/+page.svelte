@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ProgressRing, type ToastContext } from '@skeletonlabs/skeleton-svelte';
+	import { ProgressRing, createToaster } from '@skeletonlabs/skeleton-svelte';
 	import { enhance } from '$app/forms';
 
 	import type { PageData } from './$types';
@@ -12,7 +12,7 @@
 
 	let { data }: Props = $props();
 
-	export const toast: ToastContext = getContext('toast');
+	export const toast: ReturnType<typeof createToaster> = getContext('toast');
 
 	function toastHandler(result: ActionResult) {
 		if (result.type == 'success') {

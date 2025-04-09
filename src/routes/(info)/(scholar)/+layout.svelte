@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	let { children } = $props();
 
-	let current_page = $derived($page.url.pathname);
+	let current_page = $derived(page.url.pathname);
 
 	const pages = [
 		{

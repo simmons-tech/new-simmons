@@ -3,7 +3,7 @@
 	import { getContext } from 'svelte';
 	import { enhance } from '$app/forms';
 	import { base } from '$app/paths';
-	import { type ToastContext } from '@skeletonlabs/skeleton-svelte';
+	import { createToaster } from '@skeletonlabs/skeleton-svelte';
 
 	interface Props {
 		data: PageData;
@@ -16,9 +16,9 @@
 	import type { ActionResult } from '@sveltejs/kit';
 
 	import { SDS_HOME_URL } from '$lib/config';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
-	export const toast: ToastContext = getContext('toast');
+	export const toast: ReturnType<typeof createToaster> = getContext('toast');
 
 	function toastHandler(result: ActionResult) {
 		if (result.type == 'success') {
@@ -36,7 +36,7 @@
 		} else if (result.type == 'redirect') {
 			if (
 				result.location == SDS_HOME_URL ||
-				result.location == $page.url.searchParams.get('redirect')
+				result.location == page.url.searchParams.get('redirect')
 			) {
 				error = false;
 				toast.create({
@@ -113,14 +113,14 @@
 						type="password"
 					/>
 				</label>
-				<input type="hidden" name="redirect" value={$page.url.searchParams.get('redirect')} />
+				<input type="hidden" name="redirect" value={page.url.searchParams.get('redirect')} />
 				<button type="submit" class="btn preset-filled">Sign In with Credentials</button>
 			</form>
 			<hr class="hr" />
 			<form class="flex grow flex-col">
 				<a
-					href="{base}/auth/signin/okta{$page.url.searchParams.get('redirect')
-						? '?redirect=' + $page.url.searchParams.get('redirect')
+					href="{base}/auth/signin/okta{page.url.searchParams.get('redirect')
+						? '?redirect=' + page.url.searchParams.get('redirect')
 						: ''}"
 					type="button"
 					class="btn preset-filled-success-500">Sign In with Touchstone</a
