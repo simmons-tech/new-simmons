@@ -24,8 +24,8 @@ importers:
         specifier: ^3.5.0
         version: 3.5.0
       carta-md:
-        specifier: ^4.8.1
-        version: 4.8.1(svelte@5.25.8)
+        specifier: ^4.9.0
+        version: 4.9.0(svelte@5.25.8)
       css-tree:
         specifier: ^3.1.0
         version: 3.1.0
@@ -1595,8 +1595,8 @@ packages:
   caniuse-lite@1.0.30001707:
     resolution: {integrity: sha512-3qtRjw/HQSMlDWf+X79N206fepf4SOOU6SQLMaq/0KkZLmSjPxAkBOQQ+FxbHKfHmYLZFfdWsO3KA90ceHPSnw==}
 
-  carta-md@4.8.1:
-    resolution: {integrity: sha512-KHIZwv/AOekNYk+qpIJZ0jK44CUt9de/vomVzL+T0Ci1T41uFmeBw+oWGChhyO836iq/vJl3OQpCCYrxykQGrw==}
+  carta-md@4.9.0:
+    resolution: {integrity: sha512-MP5MR9ywSBUm/ejXW/ftHO8Xv+JkvBEbVJF+BkGanecJdxvaBjFOVxZILyqI+kIM8ocYMqzDgIpGVOZixL1Ggw==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -2831,8 +2831,8 @@ packages:
   remark-parse@11.0.0:
     resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
 
-  remark-rehype@11.1.1:
-    resolution: {integrity: sha512-g/osARvjkBXb6Wo0XvAeXQohVta8i84ACbenPpoSsxTOQH/Ae0/RGP4WZgnMH5pMLpsj4FG7OHmcIcXxpza8eQ==}
+  remark-rehype@11.1.2:
+    resolution: {integrity: sha512-Dh7l57ianaEoIpzbp0PC9UKAdCSVklD8E5Rpw7ETfbTl3FqcOOgq5q2LVDhgGCkaBv7p24JXikPdvhhmHvKMsw==}
 
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
@@ -4543,14 +4543,14 @@ snapshots:
 
   caniuse-lite@1.0.30001707: {}
 
-  carta-md@4.8.1(svelte@5.25.8):
+  carta-md@4.9.0(svelte@5.25.8):
     dependencies:
       diff: 5.2.0
       esm-env: 1.2.2
       rehype-stringify: 10.0.1
       remark-gfm: 4.0.1
       remark-parse: 11.0.0
-      remark-rehype: 11.1.1
+      remark-rehype: 11.1.2
       shiki: 1.29.2
       svelte: 5.25.8
       unified: 11.0.5
@@ -5887,7 +5887,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  remark-rehype@11.1.1:
+  remark-rehype@11.1.2:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
