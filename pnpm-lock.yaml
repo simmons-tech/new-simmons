@@ -21,8 +21,8 @@ importers:
         specifier: ^4.1.4
         version: 4.1.4(vite@6.3.4(@types/node@22.15.9)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@4.19.4)(yaml@2.7.0))
       arctic:
-        specifier: ^3.6.0
-        version: 3.6.0
+        specifier: ^3.6.1
+        version: 3.6.1
       carta-md:
         specifier: ^4.9.0
         version: 4.9.0(svelte@5.28.2)
@@ -1411,8 +1411,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  arctic@3.6.0:
-    resolution: {integrity: sha512-egHDsCqEacb6oSHz5QSSxNhp07J+QJwJdPvs0katL+mNM5LaGQVqxmcdq1KwfaSNSAlVumBBs0MRExS88TxbMg==}
+  arctic@3.6.1:
+    resolution: {integrity: sha512-zM3a1Y+HAhdXF3MFtNnesyI4X4f0yW7SsNGVeR1gYyZ6TSqH1346GUMU4dNDplTEoxWOxEjl7wrhXgkNTqUacw==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -2666,6 +2666,11 @@ packages:
 
   semver@7.7.1:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4227,7 +4232,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  arctic@3.6.0:
+  arctic@3.6.1:
     dependencies:
       '@oslojs/crypto': 1.0.1
       '@oslojs/encoding': 1.1.0
@@ -4703,7 +4708,7 @@ snapshots:
       '@petamoriken/float16': 3.9.2
       debug: 4.4.0
       env-paths: 3.0.0
-      semver: 7.7.1
+      semver: 7.7.2
       shell-quote: 1.8.2
       which: 4.0.0
     transitivePeerDependencies:
@@ -5585,6 +5590,9 @@ snapshots:
       xmlchars: 2.2.0
 
   semver@7.7.1: {}
+
+  semver@7.7.2:
+    optional: true
 
   set-cookie-parser@2.7.1: {}
 
