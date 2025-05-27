@@ -56,7 +56,7 @@
 		"@floating-ui/dom": "^1.7.0",
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
-		"@tailwindcss/vite": "^4.1.4",
+		"@tailwindcss/vite": "^4.1.7",
 		"arctic": "^3.6.1",
 		"carta-md": "^4.9.0",
 		"css-tree": "^3.1.0",
