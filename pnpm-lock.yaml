@@ -30,8 +30,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       drizzle-orm:
-        specifier: ^0.43.1
-        version: 0.43.1(@libsql/client-wasm@0.14.0)(@types/pg@8.15.2)(gel@2.0.1)(pg@8.16.0)(postgres@3.4.5)
+        specifier: ^0.44.1
+        version: 0.44.1(@libsql/client-wasm@0.14.0)(@types/pg@8.15.2)(gel@2.0.1)(pg@8.16.0)(postgres@3.4.5)
       isomorphic-dompurify:
         specifier: ^2.24.0
         version: 2.24.0
@@ -1691,8 +1691,8 @@ packages:
     resolution: {integrity: sha512-pcKVT+GbfPA+bUovPIilgVOoq+onNBo/YQBG86sf3/GFHkN6lRJPm1l7dKN0IMAk57RQoIm4GUllRrasLlcaSg==}
     hasBin: true
 
-  drizzle-orm@0.43.1:
-    resolution: {integrity: sha512-dUcDaZtE/zN4RV/xqGrVSMpnEczxd5cIaoDeor7Zst9wOe/HzC/7eAaulywWGYXdDEc9oBPMjayVEDg0ziTLJA==}
+  drizzle-orm@0.44.1:
+    resolution: {integrity: sha512-prIWOlwJbiYInvcJxE+IMiJCtMiFVrSUJCwx6AXSJvGOdLu35qZ46QncTZDgloiLNCG0XxTC8agQElSmsl++TA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -1708,6 +1708,7 @@ packages:
       '@types/better-sqlite3': '*'
       '@types/pg': '*'
       '@types/sql.js': '*'
+      '@upstash/redis': '>=1.34.7'
       '@vercel/postgres': '>=0.8.0'
       '@xata.io/client': '*'
       better-sqlite3: '>=7'
@@ -1750,6 +1751,8 @@ packages:
       '@types/pg':
         optional: true
       '@types/sql.js':
+        optional: true
+      '@upstash/redis':
         optional: true
       '@vercel/postgres':
         optional: true
@@ -4832,7 +4835,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@types/pg@8.15.2)(gel@2.0.1)(pg@8.16.0)(postgres@3.4.5):
+  drizzle-orm@0.44.1(@libsql/client-wasm@0.14.0)(@types/pg@8.15.2)(gel@2.0.1)(pg@8.16.0)(postgres@3.4.5):
     optionalDependencies:
       '@libsql/client-wasm': 0.14.0
       '@types/pg': 8.15.2
