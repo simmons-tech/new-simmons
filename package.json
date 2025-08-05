@@ -33,7 +33,7 @@
 		"autoprefixer": "^10.4.21",
 		"dotenv": "^17.2.1",
 		"drizzle-kit": "^0.31.4",
-		"eslint": "^9.26.0",
+		"eslint": "^9.32.0",
 		"eslint-config-prettier": "^10.1.2",
 		"eslint-plugin-drizzle": "^0.2.3",
 		"eslint-plugin-svelte": "^3.9.1",
