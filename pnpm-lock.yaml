@@ -31,7 +31,7 @@ importers:
         version: 3.1.0
       drizzle-orm:
         specifier: ^0.44.1
-        version: 0.44.3(@libsql/client-wasm@0.14.0)(@types/pg@8.15.4)(gel@2.0.1)(pg@8.16.3)(postgres@3.4.5)
+        version: 0.44.3(@libsql/client-wasm@0.14.0)(@types/pg@8.15.5)(gel@2.0.1)(pg@8.16.3)(postgres@3.4.5)
       isomorphic-dompurify:
         specifier: ^2.26.0
         version: 2.26.0
@@ -88,8 +88,8 @@ importers:
         specifier: ^24.2.0
         version: 24.2.0
       '@types/pg':
-        specifier: ^8.15.2
-        version: 8.15.4
+        specifier: ^8.15.5
+        version: 8.15.5
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.3)
@@ -1387,8 +1387,8 @@ packages:
   '@types/node@24.2.0':
     resolution: {integrity: sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==}
 
-  '@types/pg@8.15.4':
-    resolution: {integrity: sha512-I6UNVBAoYbvuWkkU3oosC8yxqH21f4/Jc4DK71JLG3dT2mdlGe1z+ep/LQGXaKaOgcvUrsQoPRqfgtMcvZiJhg==}
+  '@types/pg@8.15.5':
+    resolution: {integrity: sha512-LF7lF6zWEKxuT3/OR8wAZGzkg4ENGXFNyiV/JeOt9z5B+0ZVwbql9McqX5c/WStFq1GaGso7H1AzP/qSzmlCKQ==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -2244,8 +2244,8 @@ packages:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
-  js-base64@3.7.7:
-    resolution: {integrity: sha512-7rCnleh0z2CkXhH67J8K1Ytz0b2Y+yxTPL+/KOJoa20hfnVQ/3/T6W/KflYI4bRHRagNeXeU2bkNGI3v1oS/lw==}
+  js-base64@3.7.8:
+    resolution: {integrity: sha512-hNngCeKxIUQiEUN3GPJOkz4wF/YvdUdbNL9hsBcMQTkKzboD7T/q3OYOuuPZLUE6dBxSGpwhk5mwuDud7JVAow==}
 
   js-tokens@9.0.1:
     resolution: {integrity: sha512-mxa9E9ITFOt0ban3j6L5MpjwegGz6lBQmM1IJkWeBZGcMxto50+eWdjC/52xDbS2vy0k7vIMK0Fe2wfL9OQSpQ==}
@@ -3838,12 +3838,12 @@ snapshots:
   '@libsql/client-wasm@0.14.0':
     dependencies:
       '@libsql/core': 0.14.0
-      js-base64: 3.7.7
+      js-base64: 3.7.8
     optional: true
 
   '@libsql/core@0.14.0':
     dependencies:
-      js-base64: 3.7.7
+      js-base64: 3.7.8
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -4196,7 +4196,7 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
-  '@types/pg@8.15.4':
+  '@types/pg@8.15.5':
     dependencies:
       '@types/node': 24.2.0
       pg-protocol: 1.10.3
@@ -4791,10 +4791,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.44.3(@libsql/client-wasm@0.14.0)(@types/pg@8.15.4)(gel@2.0.1)(pg@8.16.3)(postgres@3.4.5):
+  drizzle-orm@0.44.3(@libsql/client-wasm@0.14.0)(@types/pg@8.15.5)(gel@2.0.1)(pg@8.16.3)(postgres@3.4.5):
     optionalDependencies:
       '@libsql/client-wasm': 0.14.0
-      '@types/pg': 8.15.4
+      '@types/pg': 8.15.5
       gel: 2.0.1
       pg: 8.16.3
       postgres: 3.4.5
@@ -5228,7 +5228,7 @@ snapshots:
 
   jiti@2.4.2: {}
 
-  js-base64@3.7.7:
+  js-base64@3.7.8:
     optional: true
 
   js-tokens@9.0.1: {}
