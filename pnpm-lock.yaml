@@ -39,8 +39,8 @@ importers:
         specifier: ^2.0.32
         version: 2.0.32
       lucide-svelte:
-        specifier: ^0.536.0
-        version: 0.536.0(svelte@5.38.1)
+        specifier: ^0.544.0
+        version: 0.544.0(svelte@5.38.1)
       md5:
         specifier: ^2.3.0
         version: 2.3.0
@@ -1791,6 +1791,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   decimal.js@10.6.0:
     resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
 
@@ -2391,8 +2400,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lucide-svelte@0.536.0:
-    resolution: {integrity: sha512-UIm/R2IYZMs4HW134ik7rDqEDXdvXb109Fznb8mG7OFQShnXkRpAaoyytJ8FzXR5W6GbfQ+r5jHBnIUs6uQp9w==}
+  lucide-svelte@0.544.0:
+    resolution: {integrity: sha512-8kBxSivf8SJdEUJRHBpu9bRw0S/qfVK+Yfb92KQnRRBdP425RzT6aQfrIfZctG1oucPVTBQe1ZXgmth/3qVICg==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -4764,6 +4773,11 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
+  debug@4.4.3:
+    dependencies:
+      ms: 2.1.3
+    optional: true
+
   decimal.js@10.6.0: {}
 
   decode-named-character-reference@1.1.0:
@@ -5117,7 +5131,7 @@ snapshots:
   gel@2.0.1:
     dependencies:
       '@petamoriken/float16': 3.9.2
-      debug: 4.4.1
+      debug: 4.4.3
       env-paths: 3.0.0
       semver: 7.7.2
       shell-quote: 1.8.3
@@ -5362,7 +5376,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lucide-svelte@0.536.0(svelte@5.38.1):
+  lucide-svelte@0.544.0(svelte@5.38.1):
     dependencies:
       svelte: 5.38.1
 
