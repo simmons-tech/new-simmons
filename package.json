@@ -20,7 +20,7 @@
 		"@playwright/test": "^1.55.0",
 		"@skeletonlabs/skeleton": "3.2.0",
 		"@skeletonlabs/skeleton-svelte": "1.5.1",
-		"@sveltejs/adapter-netlify": "^5.2.2",
+		"@sveltejs/adapter-netlify": "^5.2.3",
 		"@sveltejs/enhanced-img": "^0.6.0",
 		"@sveltejs/kit": "^2.37.1",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
