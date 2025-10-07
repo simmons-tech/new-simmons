@@ -124,8 +124,8 @@ importers:
         specifier: ^0.6.12
         version: 0.6.14(prettier-plugin-svelte@3.4.0(prettier@3.6.2)(svelte@5.38.1))(prettier@3.6.2)
       sv:
-        specifier: ^0.9.5
-        version: 0.9.5
+        specifier: ^0.9.7
+        version: 0.9.7
       svelte:
         specifier: 5.38.1
         version: 5.38.1
@@ -2824,8 +2824,8 @@ packages:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
 
-  sv@0.9.5:
-    resolution: {integrity: sha512-Tz07IxEOhOzTTnk35f/WEXKe/aYyO8EwNDNgwALqrj3V1LaQBRYZxA3GXNXFVTYfiZGV8RHAZFjd9NQ/r7jj7g==}
+  sv@0.9.7:
+    resolution: {integrity: sha512-PjzNqArWzGN8k1nROPTNW0UTYQ7bCJG6/eLsCAn1+cYX+jax8hbPZgB6//ZNolwTedBNTWgrFciyRUOa6Inh8Q==}
     hasBin: true
 
   svelte-check@4.3.2:
@@ -5846,7 +5846,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  sv@0.9.5: {}
+  sv@0.9.7: {}
 
   svelte-check@4.3.2(picomatch@4.0.3)(svelte@5.38.1)(typescript@5.9.2):
     dependencies:
