@@ -19,7 +19,7 @@
 		"@eslint/js": "^9.36.0",
 		"@playwright/test": "^1.55.1",
 		"@skeletonlabs/skeleton": "3.2.2",
-		"@skeletonlabs/skeleton-svelte": "1.5.1",
+		"@skeletonlabs/skeleton-svelte": "4.1.0",
 		"@sveltejs/adapter-netlify": "^5.2.4",
 		"@sveltejs/enhanced-img": "^0.6.0",
 		"@sveltejs/kit": "^2.46.5",
