@@ -82,8 +82,8 @@ importers:
         specifier: ^0.0.8
         version: 0.0.8
       '@types/md5':
-        specifier: ^2.3.5
-        version: 2.3.5
+        specifier: ^2.3.6
+        version: 2.3.6
       '@types/node':
         specifier: ^24.10.1
         version: 24.10.1
@@ -1397,8 +1397,8 @@ packages:
   '@types/locutus@0.0.8':
     resolution: {integrity: sha512-96nd8Rx7DmcBuCYQ1PPNsBgo85VUV23yRO4twnFkvNUoqvm+yjlu+g9xsBBX5IlDitsEQmoMH0W5NBPLYvpgAw==}
 
-  '@types/md5@2.3.5':
-    resolution: {integrity: sha512-/i42wjYNgE6wf0j2bcTX6kuowmdL/6PE4IVitMpm2eYKBUuYCprdcWVK+xEF0gcV6ufMCRhtxmReGfc6hIK7Jw==}
+  '@types/md5@2.3.6':
+    resolution: {integrity: sha512-WD69gNXtRBnpknfZcb4TRQ0XJQbUPZcai/Qdhmka3sxUR3Et8NrXoeAoknG/LghYHTf4ve795rInVYHBTQdNVA==}
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
@@ -4187,7 +4187,7 @@ snapshots:
 
   '@types/locutus@0.0.8': {}
 
-  '@types/md5@2.3.5': {}
+  '@types/md5@2.3.6': {}
 
   '@types/mdast@4.0.4':
     dependencies:
