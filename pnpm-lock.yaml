@@ -39,8 +39,8 @@ importers:
         specifier: ^2.0.32
         version: 2.0.32
       lucide-svelte:
-        specifier: ^0.544.0
-        version: 0.544.0(svelte@5.43.6)
+        specifier: ^0.554.0
+        version: 0.554.0(svelte@5.43.6)
       md5:
         specifier: ^2.3.0
         version: 2.3.0
@@ -2382,8 +2382,8 @@ packages:
     resolution: {integrity: sha512-r8LA6i4LP4EeWOhqBaZZjDWwehd1xUJPCJd9Sv300H0ZmcUER4+JPh7bqqZeqs1o5pgtgvXm+d9UGrB5zZGDiQ==}
     engines: {node: 20 || >=22}
 
-  lucide-svelte@0.544.0:
-    resolution: {integrity: sha512-8kBxSivf8SJdEUJRHBpu9bRw0S/qfVK+Yfb92KQnRRBdP425RzT6aQfrIfZctG1oucPVTBQe1ZXgmth/3qVICg==}
+  lucide-svelte@0.554.0:
+    resolution: {integrity: sha512-LLcpHi3SuKup0nVD1kKqo8FDZnjXJp48uST26GGh8Jcyrxqk5gmgpnvKmHsHox674UL3cPS1DCul/wFL7ybGqg==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -5339,7 +5339,7 @@ snapshots:
 
   lru-cache@11.2.1: {}
 
-  lucide-svelte@0.544.0(svelte@5.43.6):
+  lucide-svelte@0.554.0(svelte@5.43.6):
     dependencies:
       svelte: 5.43.6
 
