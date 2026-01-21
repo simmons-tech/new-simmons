@@ -43,7 +43,7 @@
 		"prettier-plugin-tailwindcss": "^0.7.1",
 		"sv": "^0.9.7",
 		"svelte": "5.43.6",
-		"svelte-check": "^4.3.4",
+		"svelte-check": "^4.3.5",
 		"tailwindcss": "^4.1.13",
 		"tsx": "^4.20.5",
 		"typescript": "^5.9.2",
