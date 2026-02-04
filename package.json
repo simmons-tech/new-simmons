@@ -30,7 +30,7 @@
 		"@types/md5": "^2.3.6",
 		"@types/node": "^24.10.1",
 		"@types/pg": "^8.15.5",
-		"autoprefixer": "^10.4.21",
+		"autoprefixer": "^10.4.23",
 		"dotenv": "^17.2.3",
 		"drizzle-kit": "^0.31.5",
 		"eslint": "^9.35.0",
