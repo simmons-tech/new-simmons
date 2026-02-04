@@ -36,8 +36,8 @@ importers:
         specifier: ^2.28.0
         version: 2.28.0(postcss@8.5.6)
       locutus:
-        specifier: ^2.0.32
-        version: 2.0.32
+        specifier: ^2.0.39
+        version: 2.0.39
       lucide-svelte:
         specifier: ^0.554.0
         version: 0.554.0(svelte@5.43.6)
@@ -2362,8 +2362,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  locutus@2.0.32:
-    resolution: {integrity: sha512-fr7OCpbE4xeefhHqfh6hM2/l9ZB3XvClHgtgFnQNImrM/nqL950o6FO98vmUH8GysfQRCcyBYtZ4C8GcY52Edw==}
+  locutus@2.0.39:
+    resolution: {integrity: sha512-v2iub44UtGpbIv+pFkkYhZ+JsbIM0bJsQcQ1+VayUNGVA/YhM8+CkBiRACcpuuE9Q0xI1pgNzGNwzZDCp1MCww==}
     engines: {node: '>= 10', yarn: '>= 1'}
 
   lodash.merge@4.6.2:
@@ -5298,7 +5298,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  locutus@2.0.32: {}
+  locutus@2.0.39: {}
 
   lodash.merge@4.6.2: {}
 
