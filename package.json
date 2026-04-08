@@ -60,7 +60,7 @@
 		"arctic": "^3.7.0",
 		"carta-md": "^4.10.2",
 		"css-tree": "^3.1.0",
-		"drizzle-orm": "^0.44.5",
+		"drizzle-orm": "^0.45.2",
 		"isomorphic-dompurify": "^2.28.0",
 		"locutus": "^3.0.25",
 		"lucide-svelte": "^0.554.0",
