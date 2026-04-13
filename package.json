@@ -58,7 +58,7 @@
 		"@oslojs/encoding": "^1.1.0",
 		"@tailwindcss/vite": "^4.2.2",
 		"arctic": "^3.7.0",
-		"carta-md": "^4.10.2",
+		"carta-md": "^4.11.2",
 		"css-tree": "^3.1.0",
 		"drizzle-orm": "^0.45.2",
 		"isomorphic-dompurify": "^2.28.0",
