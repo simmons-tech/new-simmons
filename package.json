@@ -49,7 +49,7 @@
 		"typescript": "^5.9.2",
 		"typescript-eslint": "^8.46.2",
 		"vite": "^7.3.2",
-		"vitest": "^4.0.13"
+		"vitest": "^4.1.6"
 	},
 	"type": "module",
 	"dependencies": {
