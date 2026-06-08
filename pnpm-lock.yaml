@@ -39,8 +39,8 @@ importers:
         specifier: ^3.0.25
         version: 3.0.25
       lucide-svelte:
-        specifier: ^0.554.0
-        version: 0.554.0(svelte@5.55.7(@typescript-eslint/types@8.58.0))
+        specifier: ^1.0.1
+        version: 1.0.1(svelte@5.55.7(@typescript-eslint/types@8.58.0))
       md5:
         specifier: ^2.3.0
         version: 2.3.0
@@ -2246,8 +2246,8 @@ packages:
     resolution: {integrity: sha512-r8LA6i4LP4EeWOhqBaZZjDWwehd1xUJPCJd9Sv300H0ZmcUER4+JPh7bqqZeqs1o5pgtgvXm+d9UGrB5zZGDiQ==}
     engines: {node: 20 || >=22}
 
-  lucide-svelte@0.554.0:
-    resolution: {integrity: sha512-LLcpHi3SuKup0nVD1kKqo8FDZnjXJp48uST26GGh8Jcyrxqk5gmgpnvKmHsHox674UL3cPS1DCul/wFL7ybGqg==}
+  lucide-svelte@1.0.1:
+    resolution: {integrity: sha512-WvzZgk0pqzgda+AErLvgWxHkfg/+GgUwqKMRHvzt0IqyMdmyEDzDCk3Z+Wo/3y753oIgx8u9Q4eUbWkghFa8Jg==}
     deprecated: Package deprecated. Please use @lucide/svelte instead.
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
@@ -2736,8 +2736,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.8.1:
-    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
+  semver@7.8.3:
+    resolution: {integrity: sha512-wnilbGyMxzbY7dNOl7jpKbLSjcfeweJWU5j4+u5qW+6/wuGD9KzIGOyZnQVSBM9E7DtWaaH3CyHkppYrKYoxwg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4841,7 +4841,7 @@ snapshots:
       '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.8.1
+      semver: 7.8.3
       shell-quote: 1.8.4
       which: 4.0.0
     transitivePeerDependencies:
@@ -5080,7 +5080,7 @@ snapshots:
 
   lru-cache@11.2.1: {}
 
-  lucide-svelte@0.554.0(svelte@5.55.7(@typescript-eslint/types@8.58.0)):
+  lucide-svelte@1.0.1(svelte@5.55.7(@typescript-eslint/types@8.58.0)):
     dependencies:
       svelte: 5.55.7(@typescript-eslint/types@8.58.0)
 
@@ -5702,7 +5702,7 @@ snapshots:
 
   semver@7.7.3: {}
 
-  semver@7.8.1:
+  semver@7.8.3:
     optional: true
 
   set-cookie-parser@3.1.0: {}
