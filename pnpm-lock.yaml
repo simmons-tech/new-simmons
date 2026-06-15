@@ -112,8 +112,8 @@ importers:
         specifier: ^3.12.4
         version: 3.12.4(eslint@9.35.0(jiti@2.6.1))(svelte@5.55.7(@typescript-eslint/types@8.58.0))
       globals:
-        specifier: ^16.5.0
-        version: 16.5.0
+        specifier: ^17.6.0
+        version: 17.6.0
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
@@ -2179,6 +2179,10 @@ packages:
 
   globals@16.5.0:
     resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
+    engines: {node: '>=18'}
+
+  globals@17.6.0:
+    resolution: {integrity: sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==}
     engines: {node: '>=18'}
 
   graceful-fs@4.2.11:
@@ -5136,6 +5140,8 @@ snapshots:
   globals@14.0.0: {}
 
   globals@16.5.0: {}
+
+  globals@17.6.0: {}
 
   graceful-fs@4.2.11: {}
 
