@@ -59,7 +59,7 @@
 		"@tailwindcss/vite": "^4.2.2",
 		"arctic": "^3.7.0",
 		"carta-md": "^4.11.2",
-		"css-tree": "^3.1.0",
+		"css-tree": "^3.2.1",
 		"drizzle-orm": "^0.45.2",
 		"isomorphic-dompurify": "^2.28.0",
 		"locutus": "^3.0.25",
