@@ -36,8 +36,8 @@ importers:
         specifier: ^2.28.0
         version: 2.28.0(postcss@8.5.14)
       locutus:
-        specifier: ^3.0.25
-        version: 3.0.25
+        specifier: ^3.0.36
+        version: 3.0.36
       lucide-svelte:
         specifier: ^1.0.1
         version: 1.0.1(svelte@5.55.7(@typescript-eslint/types@8.58.0))
@@ -2280,8 +2280,8 @@ packages:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
     hasBin: true
 
-  js-base64@3.7.8:
-    resolution: {integrity: sha512-hNngCeKxIUQiEUN3GPJOkz4wF/YvdUdbNL9hsBcMQTkKzboD7T/q3OYOuuPZLUE6dBxSGpwhk5mwuDud7JVAow==}
+  js-base64@3.8.0:
+    resolution: {integrity: sha512-65kvbemyZhj+ExQt1PEFyBEjL5vAHysu1lJdW1AwhhChkO8ZBPizYk/m9GVrpbS2Je1hF+UYZ+6KywqtZV8mHw==}
 
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
@@ -2400,8 +2400,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  locutus@3.0.25:
-    resolution: {integrity: sha512-TTUgu4WwsWjQUQEAzpgDATXBpj/iw3p76VzVRFwYNfUQhK/7JcHgPfAlfTwQNBZA33tbrQeD4W14W6+LiXbtXg==}
+  locutus@3.0.36:
+    resolution: {integrity: sha512-ilsz33lqEd+KerV9JnSHM9EApVYOZ86/JTGKyafmWvhTFtjYauzT1WmZgdJ4JBGR3dY0N0PTfIq2uLvazw5QsQ==}
     engines: {node: '>= 22', yarn: '>= 1'}
 
   lodash.merge@4.6.2:
@@ -2933,8 +2933,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shell-quote@1.8.4:
-    resolution: {integrity: sha512-VsC6n6vz1ihYYyZZwX7YZSF5l5x36ca17OC+a69h94YqB7X6XLwf+5MOgynYir2SLFUbl8gIYvBo8K8RoNQ6bQ==}
+  shell-quote@1.9.0:
+    resolution: {integrity: sha512-Iov+JwFv/2HcTpcwNMKd8+IWNb8tboQJNQTkAY/LLVK7gGH9jy+LGkVqPxfekHl+yMmiqXszdGWXgkfml7hjqA==}
     engines: {node: '>= 0.4'}
 
   shiki@3.23.0:
@@ -3862,12 +3862,12 @@ snapshots:
   '@libsql/client-wasm@0.14.0':
     dependencies:
       '@libsql/core': 0.14.0
-      js-base64: 3.7.8
+      js-base64: 3.8.0
     optional: true
 
   '@libsql/core@0.14.0':
     dependencies:
-      js-base64: 3.7.8
+      js-base64: 3.8.0
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -5128,7 +5128,7 @@ snapshots:
       debug: 4.4.3
       env-paths: 3.0.0
       semver: 7.8.5
-      shell-quote: 1.8.4
+      shell-quote: 1.9.0
       which: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5249,7 +5249,7 @@ snapshots:
 
   jiti@2.6.1: {}
 
-  js-base64@3.7.8:
+  js-base64@3.8.0:
     optional: true
 
   js-yaml@4.1.1:
@@ -5360,7 +5360,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  locutus@3.0.25: {}
+  locutus@3.0.36: {}
 
   lodash.merge@4.6.2: {}
 
@@ -6038,7 +6038,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shell-quote@1.8.4:
+  shell-quote@1.9.0:
     optional: true
 
   shiki@3.23.0:
