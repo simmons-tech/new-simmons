@@ -29,7 +29,7 @@
 		"@types/locutus": "^0.0.8",
 		"@types/md5": "^2.3.6",
 		"@types/node": "^25.5.2",
-		"@types/pg": "^8.15.5",
+		"@types/pg": "^8.20.0",
 		"autoprefixer": "^10.4.23",
 		"dotenv": "^17.2.3",
 		"drizzle-kit": "^0.31.10",
@@ -65,7 +65,7 @@
 		"locutus": "^3.0.36",
 		"lucide-svelte": "^1.0.1",
 		"md5": "^2.3.0",
-		"pg": "^8.16.0"
+		"pg": "^8.22.0"
 	},
 	"packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
